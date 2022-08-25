@@ -3,14 +3,14 @@ name: CI
 on:
   push:
     branches:
-      - main
+      - dev
 
 env:
   GIT_USER: felixchen0707
   GIT_EMAIL: 3137181992@qq.com
   THEME_REPO: Shen-Yu/hexo-theme-ayer
   THEME_BRANCH: master
-  DEPLOY_REPO: felixchen0707/iBME
+  DEPLOY_REPO: felixchen0707/BME-course
   DEPLOY_BRANCH: main
 
 jobs:

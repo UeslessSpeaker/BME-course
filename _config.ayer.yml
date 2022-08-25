@@ -1,8 +1,6 @@
 # 侧边栏菜单
 menu:
   主页: /
-  归档: /archives
-  分类: /categories
 
 
 # 站点次标题和打字动效
@@ -135,7 +133,7 @@ busuanzi:
 
 # 友盟cnzz统计(url填js代码src链接)
 cnzz:
-  enable: false
+  enable: true
   url: https://s9.cnzz.com/z_stat.php?id=1278069914&web_id=1278069914
 
 # Google Analytics
@@ -219,7 +217,7 @@ gitalk:
 
 # 3、Twikoo(https://github.com/imaegoo/twikoo)
 twikoo:
-  enable: false
+  enable: true
   envId: #
 
 # 4、MiniValine
