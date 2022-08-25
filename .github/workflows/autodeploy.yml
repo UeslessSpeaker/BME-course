@@ -39,6 +39,7 @@ jobs:
           repository: ${{ env.DEPLOY_REPO }}
           ref: ${{ env.DEPLOY_BRANCH }}
           path: .deploy_git
+          fetch-depth: '0'
 
       - name: Use Node.js ${{ matrix.node_version }}
         uses: actions/setup-node@v1
