@@ -7,6 +7,6 @@ public/
 .deploy*/
 .deploy_git*/
 .idea
-themes/ayer/.git
+themes/volantis/.git
 github-deploy-key
 github-deploy-key.pub

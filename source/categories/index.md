@@ -1,5 +1,5 @@
 ---
-title: categories
-type: "categories"
-layout: "categories"
+layout: category
+index: true
+title: 所有分类
 ---
