@@ -9,3 +9,6 @@ _multiconfig.yml
 .deploy_git*/
 .idea
 themes/
+
+github-deploy-key
+github-deploy-key.pub
