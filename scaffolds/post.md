@@ -1,5 +1,5 @@
 ---
-title: <center>文章标题</center>
+title: 文章标题
 date: 
 author: 
 categories:
