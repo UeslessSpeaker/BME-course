@@ -104,7 +104,7 @@ theme: volantis
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
   type: 'git'
-  repo: git@github.com:felixchen0707/iBME.git
+  repo: https://github.com/felixchen0707/sjtu-iBME.git
   branch: main
 
 # hexo-generator-searchdb

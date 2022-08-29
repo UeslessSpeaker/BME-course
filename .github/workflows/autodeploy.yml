@@ -10,7 +10,7 @@ env:
   GIT_EMAIL: 3137181992@qq.com
   THEME_REPO: volantis-x/hexo-theme-volantis
   THEME_BRANCH: main
-  DEPLOY_REPO: felixchen0707/BME-course
+  DEPLOY_REPO: felixchen0707/sjtu-iBME
   DEPLOY_BRANCH: main
 
 jobs:
@@ -39,7 +39,6 @@ jobs:
           repository: ${{ env.DEPLOY_REPO }}
           ref: ${{ env.DEPLOY_BRANCH }}
           path: .deploy_git
-          fetch-depth: '0'
 
       - name: Use Node.js ${{ matrix.node_version }}
         uses: actions/setup-node@v1
